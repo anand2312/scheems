@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "scheems"
+version = "0.1.0"
+description = "Easily generate APIs for your databases"
+authors = ["anand2312 <anandkrishna2312@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+SQLAlchemy = "^1.4.15"
+starlette = "^0.14.2"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.13.0"
+black = "^21.5b1"
+flake8 = "^3.9.2"
+flake8-docstrings = "^1.6.0"
+flake8-tidy-imports = "^4.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
