@@ -8,6 +8,7 @@ authors = ["anand2312 <anandkrishna2312@gmail.com>"]
 python = "^3.8"
 SQLAlchemy = "^1.4.15"
 starlette = "^0.14.2"
+pydantic = "^1.8.2"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^2.13.0"
