@@ -8,4 +8,10 @@ pip install -U scheems
 ```
 
 ## Quickstart
- yeah nah i haven't made that yet 🤔
+
+```py
+print('hi')
+scheems = Scheems() # bro this worky??
+damn = True
+import tensorflow as tf
+```
