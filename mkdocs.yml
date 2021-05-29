@@ -25,3 +25,4 @@ markdown_extensions:
       permalink: "#"
   - pymdownx.tabbed
   - pymdownx.highlight
+  - pymdownx.superfences
