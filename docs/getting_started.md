@@ -9,7 +9,9 @@ pip install -U scheems
 
 ## Quickstart
 
-```py
+This is a work in progress, there isn't enough code to make this yet.
+
+```python
 print('hi')
 scheems = Scheems() # bro this worky??
 damn = True

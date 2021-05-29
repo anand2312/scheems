@@ -11,11 +11,17 @@ edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Getting Started: getting_started.md
+  - HTTP Methods and corresponding Routes: http_methods.md
+  - Bulk Endpoints: bulk_endpoints.md
+  - API Reference: api_reference.md
 
 plugins:
 - search
 - mkdocstrings
 
-
 markdown_extensions:
   - admonition
+  - toc:
+      permalink: "#"
+  - pymdownx.tabbed
+  - pymdownx.highlight
