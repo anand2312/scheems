@@ -12,8 +12,7 @@ pip install -U scheems
 This is a work in progress, there isn't enough code to make this yet.
 
 ```python
-print('hi')
-scheems = Scheems() # bro this worky??
-damn = True
-import tensorflow as tf
+from scheems import Scheems
+
+api_routes = Scheems()
 ```
