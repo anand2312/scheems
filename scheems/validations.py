@@ -6,7 +6,7 @@ from sqlalchemy import Table
 from sqlalchemy.sql import sqltypes
 from sqlalchemy.types import TypeEngine
 
-from scheems.exceptions import UnsupportedTypeError
+from .exceptions import UnsupportedTypeError
 
 
 def _get_type(_type: TypeEngine) -> Type:

@@ -1,6 +1,3 @@
-from scheems.application import Scheems
-
-
 class ScheemsError(Exception):
     """
     The base Scheems Exception.

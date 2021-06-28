@@ -4,7 +4,7 @@ from sqlalchemy import Table
 from sqlalchemy.orm.decl_api import DeclarativeMeta
 from starlette.routing import Route
 
-from scheems.routes import scheems_route, Methods
+from .routes import scheems_route, Methods
 
 
 class Scheems:

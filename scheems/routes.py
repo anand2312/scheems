@@ -7,7 +7,7 @@ from starlette.routing import Route
 from starlette.requests import Request
 from starlette.responses import Response
 
-from scheems.exceptions import MissingRequiredParameter
+from .exceptions import MissingRequiredParameter
 
 
 Methods = Union[
